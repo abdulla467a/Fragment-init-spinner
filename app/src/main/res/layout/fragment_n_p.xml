@@ -4,17 +4,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#EFCE8D"
-    tools:context=".BDFragment">
+    tools:context=".INFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_margin="20dp"
+        android:layout_margin="20sp"
         android:background="@color/color4"
         android:gravity="center"
-        android:text="@string/bd_fragment_text"
+        android:text="@string/np_fragment_text"
         android:textSize="25sp"
         android:textStyle="bold" />
 

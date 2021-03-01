@@ -14,7 +14,7 @@
         android:layout_margin="20dp"
         android:background="@color/color4"
         android:gravity="center"
-        android:text="@string/bd_fragment_text"
+        android:text="@string/hk_fragment_text"
         android:textSize="25sp"
         android:textStyle="bold" />
 

@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         setContentView(R.layout.activity_main);
         mySpinner=findViewById(R.id.mySpinnerID);
         myRadiogroup=findViewById(R.id.radioGroupID);
-
         ArrayAdapter<CharSequence> myAdapter=ArrayAdapter.createFromResource(this,R.array.mycountryArray,android.R.layout.simple_spinner_item);
         myAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         mySpinner.setAdapter(myAdapter);
@@ -47,6 +46,12 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         else if(text.equals("India")){
             //INFragment2;
             myfragment= new INFragment();
+        }
+        else if (text.equals("Nepal")){
+            myfragment=new NPFragment();
+        }
+        else if (text.equals("HongKong")){
+            myfragment=new HKFragment();
         }
         else {
             // BlankFragment;
@@ -75,7 +80,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
             int radioButtonid=myRadiogroup.getCheckedRadioButtonId();
             selectedRadiobutton=findViewById(radioButtonid);
             selectedValue=selectedRadiobutton.getText().toString();
-            if(selectedValue.equals("Dhaka")){
+            if(selectedValue.equals("Royal Bengal Tiger")){
                 marks=5;
             }
             Intent myIntent=new Intent(MainActivity.this,MainActivity2.class );

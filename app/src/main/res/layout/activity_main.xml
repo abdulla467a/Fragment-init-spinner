@@ -6,14 +6,13 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/color2"
+    android:background="#EFCE8D"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="@color/color4"
         android:gravity="center"
         android:text="@string/front"
         android:textSize="30dp"
@@ -33,6 +32,7 @@
             android:text="@string/option1Text"
             android:textSize="32dp"
             android:textStyle="bold"/>
+
         <RadioButton
             android:id="@+id/radioButton2ID"
             android:layout_width="match_parent"
@@ -45,6 +45,13 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/option3Text"
+            android:textSize="32dp"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/radioButton4ID"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/option4Text"
             android:textSize="32dp"
             android:textStyle="bold"/>
     </RadioGroup>
@@ -67,7 +74,6 @@
         android:layout_width="342dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:background="@color/color4"
         android:onClick="submitfunction"
         android:text="@string/submitText"
         android:textSize="15dp"

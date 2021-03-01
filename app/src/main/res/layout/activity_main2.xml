@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:background="@color/color2"
+    android:background="#EFCE8D"
     tools:context=".MainActivity2">
     <TextView
         android:id="@+id/outputTextviewID"

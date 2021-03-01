@@ -1,22 +1,26 @@
 <resources>
     <string name="app_name">Combine All</string>
-    <string name="front">Where are you From ?</string>
-    <string name="option1Text">Dhaka</string>
-    <string name="option2Text">Rajshahi</string>
-    <string name="option3Text">khulna</string>
+    <string name="front">Sundarban is famous for which animal ?</string>
+    <string name="option1Text">Royal Bengal Tiger</string>
+    <string name="option2Text"> Estuarine Crocodiles</string>
+    <string name="option3Text">Snake</string>
+    <string name="option4Text">Elephant</string>
+
     <string name="submitText">SUBMIT</string>
     <string name="TryagainButtonText">Try Again</string>
 
-
     <string name="bd_fragment_text">Bangladesh is so Beautiful</string>
     <string name="in_fragment_text">India is our Neighbour Country</string>
+    <string name="np_fragment_text">Nepal is famous for Mount Everest</string>
+    <string name="hk_fragment_text">Hong kong is famous for Tourism</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string-array name="mycountryArray">
 
         <item>Bangladesh</item>
         <item>India</item>
+        <item>Nepal</item>
         <item>HongKong</item>
-        <item>Thailand</item>
+
     </string-array>
 
 
