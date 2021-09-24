@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     RadioGroup myRadiogroup;
     RadioButton selectedRadiobutton;
     String selectedValue;
-    public static String quizmarks="I'm from Bangladesh";
+    public static String quizmarks;
     int marks=0;
 
     @Override
